@@ -11,9 +11,6 @@
 
     <artifactId>order-data-access</artifactId>
 
-    <properties>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.gatheringability</groupId>

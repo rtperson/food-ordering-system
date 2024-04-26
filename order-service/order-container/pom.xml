@@ -11,9 +11,6 @@
 
     <artifactId>order-container</artifactId>
 
-    <properties>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.gatheringability</groupId>

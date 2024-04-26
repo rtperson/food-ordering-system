@@ -11,9 +11,6 @@
 
     <artifactId>common-domain</artifactId>
 
-    <properties>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
