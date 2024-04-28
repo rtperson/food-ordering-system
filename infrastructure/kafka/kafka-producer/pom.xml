@@ -20,14 +20,14 @@
             <groupId>com.gatheringability</groupId>
             <artifactId>kafka-config-data</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.gatheringability</groupId>
             <artifactId>order-domain-core</artifactId>
         </dependency>
         <dependency>
             <groupId>com.gatheringability</groupId>
             <artifactId>common-domain</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>org.springframework.kafka</groupId>
             <artifactId>spring-kafka</artifactId>
