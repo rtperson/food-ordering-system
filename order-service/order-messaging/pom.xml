@@ -16,6 +16,19 @@
             <groupId>com.gatheringability</groupId>
             <artifactId>order-application-service</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.gatheringability</groupId>
+            <artifactId>kafka-producer</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gatheringability</groupId>
+            <artifactId>kafka-consumer</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gatheringability</groupId>
+            <artifactId>kafka-model</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

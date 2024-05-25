@@ -48,7 +48,7 @@ public class KafkaConsumerConfig< K extends Serializable, V extends SpecificReco
 
     @Bean
     public ConsumerFactory<K, V> consumerFactory() {
-        return new DefaultKafkaConsumerFactory<>(consumerConfigs())
+        return new DefaultKafkaConsumerFactory<>(consumerConfigs());
     }
 
     @Bean
