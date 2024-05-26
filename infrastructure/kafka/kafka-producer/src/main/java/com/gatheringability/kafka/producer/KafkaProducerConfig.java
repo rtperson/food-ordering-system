@@ -2,8 +2,8 @@ package com.gatheringability.kafka.producer;
 
 import org.apache.avro.specific.SpecificRecordBase;
 import org.apache.kafka.clients.producer.ProducerConfig;
-import org.gatheringability.kafka.config.data.KafkaConfigData;
-import org.gatheringability.kafka.config.data.KafkaProducerConfigData;
+import com.gatheringability.kafka.config.data.KafkaConfigData;
+import com.gatheringability.kafka.config.data.KafkaProducerConfigData;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.core.DefaultKafkaProducerFactory;

@@ -21,7 +21,7 @@ public class OrderItemEntity {
 
     @Id
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "ORDER_ID")
+    @JoinColumn(name = "order_id")
     private OrderEntity order;
 
     private UUID productId;

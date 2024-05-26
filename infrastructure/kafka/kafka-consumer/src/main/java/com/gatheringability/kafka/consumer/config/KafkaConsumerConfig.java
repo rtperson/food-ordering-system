@@ -2,9 +2,8 @@ package com.gatheringability.kafka.consumer.config;
 
 import org.apache.avro.specific.SpecificRecordBase;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
-import org.apache.kafka.clients.producer.ProducerConfig;
-import org.gatheringability.kafka.config.data.KafkaConfigData;
-import org.gatheringability.kafka.config.data.KafkaConsumerConfigData;
+import com.gatheringability.kafka.config.data.KafkaConfigData;
+import com.gatheringability.kafka.config.data.KafkaConsumerConfigData;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;

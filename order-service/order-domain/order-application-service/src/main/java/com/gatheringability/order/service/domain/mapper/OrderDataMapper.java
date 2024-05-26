@@ -13,6 +13,7 @@ import com.gatheringability.order.service.domain.entity.OrderItem;
 import com.gatheringability.order.service.domain.entity.Product;
 import com.gatheringability.order.service.domain.entity.Restaurant;
 import com.gatheringability.order.service.domain.valueobject.StreetAddress;
+import com.gatheringability.order.service.domain.valueobject.TrackingId;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

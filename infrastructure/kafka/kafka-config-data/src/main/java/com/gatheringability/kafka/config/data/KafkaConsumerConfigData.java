@@ -1,4 +1,4 @@
-package org.gatheringability.kafka.config.data;
+package com.gatheringability.kafka.config.data;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
