@@ -74,6 +74,21 @@
             </dependency>
             <dependency>
                 <groupId>com.gatheringability</groupId>
+                <artifactId>payment-application-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gatheringability</groupId>
+                <artifactId>payment-data-access</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gatheringability</groupId>
+                <artifactId>payment-messaging</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.gatheringability</groupId>
                 <artifactId>order-domain</artifactId>
                 <version>${project.version}</version>
             </dependency>

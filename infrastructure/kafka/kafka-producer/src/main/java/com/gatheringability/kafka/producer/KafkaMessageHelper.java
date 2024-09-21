@@ -1,6 +1,5 @@
-package com.gatheringability.order.service.messaging.publisher.kafka;
+package com.gatheringability.kafka.producer;
 
-import com.gatheringability.kafka.order.avro.model.PaymentRequestAvroModel;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.springframework.kafka.support.SendResult;
@@ -10,10 +9,10 @@ import java.util.function.BiConsumer;
 
 @Slf4j
 @Component
-public class OrderKafkaMessageHelper {
+public class KafkaMessageHelper {
 
     public<T> BiConsumer<SendResult<String, T>, Throwable>
-    getKafkaCallback(String requestTopicName, T requestAvroModel, String orderId, String requestAvroModelName) {
+    getKafkaCallback(String requestTopicName, T avroModel, String orderId, String avroModelName) {
         return (result, ex) -> {
             if (ex == null) {
                 RecordMetadata metadata = result.getRecordMetadata();
@@ -26,7 +25,7 @@ public class OrderKafkaMessageHelper {
                         System.nanoTime());
             } else {
                 log.error("Error occurred while sending {} to topic {}",
-                        requestAvroModelName, requestTopicName, ex);
+                        avroModelName, requestTopicName, ex);
             }
         };
     }
